@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer"
 const randNum=Math.floor(Math.random()*10)
 let guessGame:{ userGuess: number }= await inquirer.prompt([
